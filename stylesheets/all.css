@@ -1,0 +1,82 @@
+.img-screenshot{
+  border:25px solid rgba(221, 221, 221, 0.5);
+  border-radius: 10px;
+  border-bottom: 64px solid rgba(221, 221, 221, 0.5);
+}
+
+.owl-item div div a::after {
+  content: "";
+  background-color: rgba(0,0,0,0.3);
+  display: block;
+  border-radius: 25px;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -47px;
+  z-index:1000;
+}
+
+.logo {
+  max-width: 205px;
+}
+
+.owl-item p{
+margin-top: 20px;
+color: #888;
+font-size: 1.3em;
+}
+
+.photo-credits{
+  font-size: 10px;
+  color:rgba(255,255,255,0.6);
+}
+.photo-credits a{
+   color:rgba(255,255,255,0.8);
+}
+
+/* Parallax Backgrounds */
+
+#intro.parallaxBg {
+ background-image: url(../images/city.jpg);
+}
+
+#download.parallaxBg {
+ background-image: url(../images/water.jpg);
+}
+
+#contact.parallaxBg {
+ background-image: none;
+}
+
+.btn-bold.page-scroll{
+  border-color:#CC143A;
+    background: #CC143A;
+    color: #fff;
+}
+
+.btn-bold.page-scroll:hover{
+  border-color:#CC143A;
+    background: rgba(204, 20, 58, 0.80);
+    color: #fff;
+
+}
+
+.parallaxBg {
+    background: url(../images/bg.jpg) no-repeat center center #444;
+    background-attachment: inherit !important;
+    background-size:cover !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size:cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+    width: auto !important;
+ }
+
+
+
+
